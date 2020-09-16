@@ -5,10 +5,10 @@ class NavBar extends React.Component {
     render() {
         return (
             <div className={ styles.navbar }>
-                <p>some text</p>
-                <button>Button1</button>
-                <button>Button2</button>
-                <button>Button3</button>
+                <p className={ styles.brand }>Coding News</p>
+                <span className={ styles.navbtn }> Home </span>
+                <span className={ styles.navbtn }> Latest News </span>
+                <span className={ styles.navbtn }> About us </span>
             </div>
         );
     }

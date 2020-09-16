@@ -7,5 +7,16 @@
     display: flex;
     flex: 1;
     flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: whitesmoke;
 
+}
+
+.brand {
+    font-size: 20px;
+}
+
+.navbtn {
+    font-size: 14px;
 }
