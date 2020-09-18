@@ -22,7 +22,11 @@ class InfoCards extends React.Component {
                     this.state.postsData.map((post) => {
                         return(
                             <div className={ styles.infocard } key={ post.id }>
-                            
+                                <div className={ styles.infouser }>
+                                    <div className={ styles.userimg }>
+                                        <img></img>
+                                        </div>
+                                </div>
                             </div>
                         )
                     })
