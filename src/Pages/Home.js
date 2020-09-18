@@ -34,7 +34,7 @@ class InfoCards extends React.Component {
 
 function Home() {
     return(
-        <div>
+        <div className={ styles.container }>
 <InfoCards> </InfoCards>
 
         </div>

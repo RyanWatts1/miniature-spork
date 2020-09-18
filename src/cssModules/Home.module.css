@@ -5,6 +5,11 @@
     border-radius: 1%;
     margin: 0 auto .5em; /*top, right/left, buttom margin 
                             provides space between cards*/
-    background-color: rgb(229, 234, 242);
+    background-color: white;
 
+
+}
+
+.container {
+    margin-top: 20px;
 }
