@@ -8,9 +8,9 @@ class NavBar extends React.Component {
             <div className={ styles.spacer }>
             <div className={ styles.navbar }>
                 <p className={ styles.brand }>Coding News</p>
-                <Link to="/"><span className={ styles.navbtn }> Home </span></Link>
-                <Link to="/LatestNews"><span className={ styles.navbtn }> Latest News </span></Link>
-                <Link to="/About"><span className={ styles.navbtn }> About us </span></Link>
+                <Link to="/" style={{ textDecoration: 'none'}}> <span className={ styles.navbtn }> Home </span></Link>
+                <Link to="/LatestNews" style={{ textDecoration: 'none'}}> <span className={ styles.navbtn }> Latest News </span></Link>
+                <Link to="/About" style={{ textDecoration: 'none'}}> <span className={ styles.navbtn }> About us </span></Link>
             </div>
             </div>
         );

@@ -1,0 +1,10 @@
+.infocard {
+    width: 40em;
+    min-height: 5em;
+    border: 1px solid lightgrey;
+    border-radius: 1%;
+    margin: 0auto 0.5em; /*top, right/left, buttom margin 
+                            provides space between cards*/
+    background-color: lightsteelblue;
+
+}
