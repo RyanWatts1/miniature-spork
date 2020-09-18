@@ -3,8 +3,8 @@
     min-height: 5em;
     border: 1px solid lightgrey;
     border-radius: 1%;
-    margin: 0auto 0.5em; /*top, right/left, buttom margin 
+    margin: 0 auto .5em; /*top, right/left, buttom margin 
                             provides space between cards*/
-    background-color: lightsteelblue;
+    background-color: rgb(229, 234, 242);
 
 }
