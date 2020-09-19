@@ -39,7 +39,7 @@ class InfoCards extends React.Component {
 function LatestNews() {
     return(
         <div className={ styles.container }>
-<InfoCards> </InfoCards>
+<InfoCards>   </InfoCards>
 
         </div>
         
